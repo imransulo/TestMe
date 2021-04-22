@@ -1,6 +1,6 @@
 # TestMe
 TestMe is a new project which aims online examination. Nowadays, everything and everyone is constantly online. People find it easier and more comfortable to sort things out through technology. Because of this and because of how covid-19 has impacted our everyday life, we thought of the idea of a program that enables the online examination.
-This system will conduct digitally exams and will make easier the evaluation of students academic knowledge. With some simple configuration, teachers & professors can create an exam using multiple choice questions or open questions.
+This application will conduct digitally exams and will make easier the evaluation of students academic knowledge. With some simple configuration, teachers & professors can create an exam using multiple choice questions or open questions.
 
 Even though this program opposes the traditional way of which we used to take exams, we listed the benefits of using 'TestMe'.
 
