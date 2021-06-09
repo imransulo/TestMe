@@ -1,0 +1,171 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<XMI xmi.version = "1.1" xmlns:UML="href://org.omg/UML/1.3" timestamp = "Tue Jun 08 13:1:27 2021">
+<XMI.header>
+  <XMI.documentation>
+    <XMI.owner></XMI.owner>
+    <XMI.contact></XMI.contact>
+    <XMI.exporter>StarUML.XMI-Addin</XMI.exporter>
+    <XMI.exporterVersion>1.0</XMI.exporterVersion>
+    <XMI.notice></XMI.notice>
+  </XMI.documentation>
+  <XMI.metamodel xmi.name = "UML" xmi.version = "1.3"/>
+ </XMI.header>
+<XMI.content>
+<UML:Model xmi.id="UMLProject.1">
+  <UML:Namespace.ownedElement>
+    <UML:Model xmi.id="UMLModel.2" name="Use Case Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Stereotype xmi.id="X.43" name="useCaseModel" extendedElement="UMLModel.2"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Model xmi.id="UMLModel.3" name="Analysis Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Stereotype xmi.id="X.44" name="analysisModel" extendedElement="UMLModel.3"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Model xmi.id="UMLModel.4" name="Design Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Stereotype xmi.id="X.45" name="designModel" extendedElement="UMLModel.4"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Model xmi.id="UMLModel.5" name="Implementation Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Stereotype xmi.id="X.46" name="implementationModel" extendedElement="UMLModel.5"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Model xmi.id="UMLModel.6" name="Deployment Model" visibility="public" isSpecification="false" namespace="UMLProject.1" isRoot="false" isLeaf="false" isAbstract="false">
+      <UML:Namespace.ownedElement>
+        <UML:Collaboration xmi.id="UMLCollaborationInstanceSet.7" name="CollaborationInstanceSet1" visibility="public" isSpecification="false">
+          <UML:Collaboration.interaction>
+            <UML:Interaction xmi.id="UMLInteractionInstanceSet.8" name="InteractionInstanceSet1" visibility="public" isSpecification="false" context="UMLCollaborationInstanceSet.7">
+              <UML:Interaction.message>
+                <UML:Message xmi.id="UMLStimulus.9" name="Creates new" visibility="public" isSpecification="false" sender="UMLObject.34" receiver="UMLObject.35" interaction="UMLInteractionInstanceSet.8">
+                  <UML:Message.action>
+                    <UML:CallAction xmi.id="UMLCallAction.10" name="" visibility="public" isSpecification="false" isAsynchronous="false" stimulus="UMLStimulus.9"/>
+                  </UML:Message.action>
+                </UML:Message>
+                <UML:Message xmi.id="UMLStimulus.11" name="Deletes" visibility="public" isSpecification="false" sender="UMLObject.34" receiver="UMLObject.35" interaction="UMLInteractionInstanceSet.8">
+                  <UML:Message.action>
+                    <UML:CallAction xmi.id="UMLCallAction.12" name="" visibility="public" isSpecification="false" isAsynchronous="false" stimulus="UMLStimulus.11"/>
+                  </UML:Message.action>
+                </UML:Message>
+                <UML:Message xmi.id="UMLStimulus.13" name="Add questions" visibility="public" isSpecification="false" sender="UMLObject.34" receiver="UMLObject.35" interaction="UMLInteractionInstanceSet.8">
+                  <UML:Message.action>
+                    <UML:CallAction xmi.id="UMLCallAction.14" name="" visibility="public" isSpecification="false" isAsynchronous="false" stimulus="UMLStimulus.13"/>
+                  </UML:Message.action>
+                </UML:Message>
+                <UML:Message xmi.id="UMLStimulus.15" name="Modify questions" visibility="public" isSpecification="false" sender="UMLObject.34" receiver="UMLObject.35" interaction="UMLInteractionInstanceSet.8">
+                  <UML:Message.action>
+                    <UML:CallAction xmi.id="UMLCallAction.16" name="" visibility="public" isSpecification="false" isAsynchronous="false" stimulus="UMLStimulus.15"/>
+                  </UML:Message.action>
+                </UML:Message>
+                <UML:Message xmi.id="UMLStimulus.17" name="Delete questions" visibility="public" isSpecification="false" sender="UMLObject.34" receiver="UMLObject.35" interaction="UMLInteractionInstanceSet.8">
+                  <UML:Message.action>
+                    <UML:CallAction xmi.id="UMLCallAction.18" name="" visibility="public" isSpecification="false" isAsynchronous="false" stimulus="UMLStimulus.17"/>
+                  </UML:Message.action>
+                </UML:Message>
+                <UML:Message xmi.id="UMLStimulus.19" name="Declare correct answers" visibility="public" isSpecification="false" sender="UMLObject.34" receiver="UMLObject.36" interaction="UMLInteractionInstanceSet.8">
+                  <UML:Message.action>
+                    <UML:CallAction xmi.id="UMLCallAction.20" name="" visibility="public" isSpecification="false" isAsynchronous="false" stimulus="UMLStimulus.19"/>
+                  </UML:Message.action>
+                </UML:Message>
+              </UML:Interaction.message>
+            </UML:Interaction>
+            <UML:Interaction xmi.id="UMLInteractionInstanceSet.21" name="InteractionInstanceSet1" visibility="public" isSpecification="false" context="UMLCollaborationInstanceSet.7">
+              <UML:Interaction.message>
+                <UML:Message xmi.id="UMLStimulus.22" name="Creates new" visibility="public" isSpecification="false" sender="UMLObject.34" receiver="UMLObject.35" communicationConnection="UMLLink.37" interaction="UMLInteractionInstanceSet.21">
+                  <UML:Message.action>
+                    <UML:CallAction xmi.id="UMLCallAction.23" name="" visibility="public" isSpecification="false" isAsynchronous="false" stimulus="UMLStimulus.22"/>
+                  </UML:Message.action>
+                </UML:Message>
+                <UML:Message xmi.id="UMLStimulus.24" name="Deletes" visibility="public" isSpecification="false" sender="UMLObject.34" receiver="UMLObject.35" communicationConnection="UMLLink.37" interaction="UMLInteractionInstanceSet.21">
+                  <UML:Message.action>
+                    <UML:CallAction xmi.id="UMLCallAction.25" name="" visibility="public" isSpecification="false" isAsynchronous="false" stimulus="UMLStimulus.24"/>
+                  </UML:Message.action>
+                </UML:Message>
+                <UML:Message xmi.id="UMLStimulus.26" name="Add questions" visibility="public" isSpecification="false" sender="UMLObject.34" receiver="UMLObject.35" communicationConnection="UMLLink.37" interaction="UMLInteractionInstanceSet.21">
+                  <UML:Message.action>
+                    <UML:CallAction xmi.id="UMLCallAction.27" name="" visibility="public" isSpecification="false" isAsynchronous="false" stimulus="UMLStimulus.26"/>
+                  </UML:Message.action>
+                </UML:Message>
+                <UML:Message xmi.id="UMLStimulus.28" name="Modify questions" visibility="public" isSpecification="false" sender="UMLObject.34" receiver="UMLObject.35" communicationConnection="UMLLink.37" interaction="UMLInteractionInstanceSet.21">
+                  <UML:Message.action>
+                    <UML:CallAction xmi.id="UMLCallAction.29" name="" visibility="public" isSpecification="false" isAsynchronous="false" stimulus="UMLStimulus.28"/>
+                  </UML:Message.action>
+                </UML:Message>
+                <UML:Message xmi.id="UMLStimulus.30" name="Delete questions" visibility="public" isSpecification="false" sender="UMLObject.34" receiver="UMLObject.35" communicationConnection="UMLLink.37" interaction="UMLInteractionInstanceSet.21">
+                  <UML:Message.action>
+                    <UML:CallAction xmi.id="UMLCallAction.31" name="" visibility="public" isSpecification="false" isAsynchronous="false" stimulus="UMLStimulus.30"/>
+                  </UML:Message.action>
+                </UML:Message>
+                <UML:Message xmi.id="UMLStimulus.32" name="Declare correct answers" visibility="public" isSpecification="false" sender="UMLObject.34" receiver="UMLObject.36" communicationConnection="UMLLink.40" interaction="UMLInteractionInstanceSet.21">
+                  <UML:Message.action>
+                    <UML:CallAction xmi.id="UMLCallAction.33" name="" visibility="public" isSpecification="false" isAsynchronous="false" stimulus="UMLStimulus.32"/>
+                  </UML:Message.action>
+                </UML:Message>
+              </UML:Interaction.message>
+            </UML:Interaction>
+          </UML:Collaboration.interaction>
+          <UML:Namespace.ownedElement>
+            <UML:ClassifierRole xmi.id="UMLObject.34" name="Teacher" visibility="public" isSpecification="false" participant="UMLLinkEnd.38 UMLLinkEnd.41" message2="UMLStimulus.9 UMLStimulus.11 UMLStimulus.13 UMLStimulus.15 UMLStimulus.17 UMLStimulus.19 UMLStimulus.22 UMLStimulus.24 UMLStimulus.26 UMLStimulus.28 UMLStimulus.30 UMLStimulus.32" isRoot="false" isLeaf="false" isAbstract="false">
+              <UML:ClassifierRole.multiplicity>
+                <UML:Multiplicity xmi.id="X.48">
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id="X.49" lower="1" upper="1" multiplicity="X.48"/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:ClassifierRole.multiplicity>
+            </UML:ClassifierRole>
+            <UML:ClassifierRole xmi.id="UMLObject.35" name="Exam" visibility="public" isSpecification="false" participant="UMLLinkEnd.39" message1="UMLStimulus.9 UMLStimulus.11 UMLStimulus.13 UMLStimulus.15 UMLStimulus.17 UMLStimulus.22 UMLStimulus.24 UMLStimulus.26 UMLStimulus.28 UMLStimulus.30" isRoot="false" isLeaf="false" isAbstract="false">
+              <UML:ClassifierRole.multiplicity>
+                <UML:Multiplicity xmi.id="X.50">
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id="X.51" lower="1" upper="1" multiplicity="X.50"/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:ClassifierRole.multiplicity>
+            </UML:ClassifierRole>
+            <UML:ClassifierRole xmi.id="UMLObject.36" name="Program" visibility="public" isSpecification="false" participant="UMLLinkEnd.42" message1="UMLStimulus.19 UMLStimulus.32" isRoot="false" isLeaf="false" isAbstract="false">
+              <UML:ClassifierRole.multiplicity>
+                <UML:Multiplicity xmi.id="X.52">
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id="X.53" lower="1" upper="1" multiplicity="X.52"/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:ClassifierRole.multiplicity>
+            </UML:ClassifierRole>
+            <UML:AssociationRole xmi.id="UMLLink.37" name="" visibility="public" isSpecification="false" message="UMLStimulus.22 UMLStimulus.24 UMLStimulus.26 UMLStimulus.28 UMLStimulus.30">
+              <UML:AssociationRole.connection>
+                <UML:AssociationEndRole xmi.id="UMLLinkEnd.38" name="" visibility="public" isSpecification="false" type="UMLObject.34" association="UMLLink.37" isNavigable="false" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable"/>
+                <UML:AssociationEndRole xmi.id="UMLLinkEnd.39" name="" visibility="public" isSpecification="false" type="UMLObject.35" association="UMLLink.37" isNavigable="false" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable"/>
+              </UML:AssociationRole.connection>
+              <UML:AssociationRole.multiplicity>
+                <UML:Multiplicity xmi.id="X.54">
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id="X.55" lower="1" upper="1" multiplicity="X.54"/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationRole.multiplicity>
+            </UML:AssociationRole>
+            <UML:AssociationRole xmi.id="UMLLink.40" name="" visibility="public" isSpecification="false" message="UMLStimulus.32">
+              <UML:AssociationRole.connection>
+                <UML:AssociationEndRole xmi.id="UMLLinkEnd.41" name="" visibility="public" isSpecification="false" type="UMLObject.34" association="UMLLink.40" isNavigable="false" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable"/>
+                <UML:AssociationEndRole xmi.id="UMLLinkEnd.42" name="" visibility="public" isSpecification="false" type="UMLObject.36" association="UMLLink.40" isNavigable="false" ordering="unordered" aggregation="none" targetScope="instance" changeability="changeable"/>
+              </UML:AssociationRole.connection>
+              <UML:AssociationRole.multiplicity>
+                <UML:Multiplicity xmi.id="X.56">
+                  <UML:Multiplicity.range>
+                    <UML:MultiplicityRange xmi.id="X.57" lower="1" upper="1" multiplicity="X.56"/>
+                  </UML:Multiplicity.range>
+                </UML:Multiplicity>
+              </UML:AssociationRole.multiplicity>
+            </UML:AssociationRole>
+          </UML:Namespace.ownedElement>
+        </UML:Collaboration>
+        <UML:Stereotype xmi.id="X.47" name="deploymentModel" extendedElement="UMLModel.6"/>
+      </UML:Namespace.ownedElement>
+    </UML:Model>
+  </UML:Namespace.ownedElement>
+</UML:Model>
+</XMI.content>
+</XMI>
