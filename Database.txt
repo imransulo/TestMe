@@ -1,0 +1,127 @@
+
+create table UserLogIn(
+id int primary key auto_increment,
+fname varchar(20),
+lname varchar(20),
+username varchar(20),
+password varchar(20)
+);
+
+create table Economy(
+id int auto_increment primary key,
+question varchar(50),
+first_alternative varchar(30),
+second_alternative varchar(30),
+third_alternative varchar(30),
+fourth_alternative varchar(30),
+correct_alternative varchar(30)
+);
+
+
+create table Philosophy(
+id int auto_increment primary key,
+question varchar(50),
+first_alternative varchar(30),
+second_alternative varchar(30),
+third_alternative varchar(30),
+fourth_alternative varchar(30),
+correct_alternative varchar(30)
+);
+
+
+create table History(
+id int auto_increment primary key,
+question varchar(50),
+first_alternative varchar(30),
+second_alternative varchar(30),
+third_alternative varchar(30),
+fourth_alternative varchar(30),
+correct_alternative varchar(30)
+);
+
+
+create table Geography(
+id int auto_increment primary key,
+question varchar(50),
+first_alternative varchar(30),
+second_alternative varchar(30),
+third_alternative varchar(30),
+fourth_alternative varchar(30),
+correct_alternative varchar(30)
+);
+
+
+create table Math(
+id int auto_increment primary key,
+question varchar(50),
+first_alternative varchar(30),
+second_alternative varchar(30),
+third_alternative varchar(30),
+fourth_alternative varchar(30),
+correct_alternative varchar(30)
+);
+
+
+create table Physics(
+id int auto_increment primary key,
+question varchar(50),
+first_alternative varchar(30),
+second_alternative varchar(30),
+third_alternative varchar(30),
+fourth_alternative varchar(30),
+correct_alternative varchar(30)
+);
+
+
+create table Chemistry(
+id int auto_increment primary key,
+question varchar(50),
+first_alternative varchar(30),
+second_alternative varchar(30),
+third_alternative varchar(30),
+fourth_alternative varchar(30),
+correct_alternative varchar(30)
+);
+
+
+create table Programming(
+id int auto_increment primary key,
+question varchar(50),
+first_alternative varchar(30),
+second_alternative varchar(30),
+third_alternative varchar(30),
+fourth_alternative varchar(30),
+correct_alternative varchar(30)
+);
+
+
+create table TeacherLogIn(
+username varchar(20),
+password varchar(20)
+);
+
+create table UserSignUp(
+id int primary key auto_increment,
+fname varchar(20) not null,
+lname varchar(20) not null,
+email varchar(20) not null,
+phoneNo varchar(20) not null,
+username varchar(20) not null,
+password varchar(20) not null
+);
+
+
+create table contesters(
+id int primary key auto_increment,
+fname varchar(20),
+lname varchar(20),
+math_score int,
+physics_score int,
+chemistry_score int,
+programming_score int,
+geography_score int,
+history_score int,
+economy_score int,
+philosophy_score int
+);
+
