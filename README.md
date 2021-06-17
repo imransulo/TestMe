@@ -4,6 +4,7 @@ This application will conduct digitally exams and will make easier the evaluatio
 
 Even though this program opposes the traditional way of which we used to take exams, we listed the benefits of using 'TestMe'.
 
+
 THE BENEFITS:
 1. Automatic evaluation: the process of evaluation is easier and faster because it is automated. Student like it better because they do not have to wait too long for the results. Teachers prefer it too, because it is less time consuming than the traditional way.
 2. Cost effective: When taking conventional exam, there is a higher consume of question papers and answer sheets than online examination. Thus, online exams reduce these expenses.
