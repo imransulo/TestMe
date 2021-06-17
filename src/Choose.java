@@ -44,7 +44,7 @@ public class Choose {
 		frame = new JFrame();
 		frame.getContentPane().setBackground(new java.awt.Color(0, 0, 205));
 		frame.getContentPane().setForeground(new java.awt.Color(255, 255, 240));
-		frame.setBounds(100, 100, 694, 609);
+		frame.setBounds(100, 100, 758, 555);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
@@ -53,7 +53,7 @@ public class Choose {
 		welcome.setFont(new Font("Tahoma", Font.PLAIN, 50));
 		welcome.setBackground(java.awt.Color.BLACK);
 		welcome.setHorizontalAlignment(SwingConstants.CENTER);
-		welcome.setBounds(48, 44, 595, 82);
+		welcome.setBounds(10, 33, 722, 82);
 		frame.getContentPane().add(welcome);
 		
 		JButton teacher = new JButton("Teacher");
@@ -69,7 +69,7 @@ public class Choose {
 		teacher.setForeground(new java.awt.Color(255, 255, 255));
 		teacher.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		teacher.setBackground(new java.awt.Color(255, 140, 0));
-		teacher.setBounds(255, 199, 166, 82);
+		teacher.setBounds(281, 177, 166, 82);
 		frame.getContentPane().add(teacher);
 		
 		JButton student = new JButton("Student");
@@ -78,15 +78,14 @@ public class Choose {
 				
 				UserChoose c = new UserChoose();
 				c.frame.setVisible(true);
-				frame.dispose();
-				
+				frame.dispose();				
 			}
 		});
 		
 		student.setForeground(new java.awt.Color(255, 255, 255));
 		student.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		student.setBackground(new java.awt.Color(255, 140, 0));
-		student.setBounds(255, 332, 166, 82);
+		student.setBounds(281, 304, 166, 82);
 		frame.getContentPane().add(student);
 		
 		JButton btnNewButton = new JButton("Quit");
@@ -99,7 +98,7 @@ public class Choose {
 		btnNewButton.setBackground(new java.awt.Color(255, 140, 0));
 		btnNewButton.setForeground(new java.awt.Color(255, 255, 255));
 		btnNewButton.setFont(new Font("Tahoma", Font.PLAIN, 14));
-		btnNewButton.setBounds(570, 519, 98, 40);
+		btnNewButton.setBounds(634, 465, 98, 40);
 		frame.getContentPane().add(btnNewButton);
 		frame.setLocationRelativeTo(null);
 		

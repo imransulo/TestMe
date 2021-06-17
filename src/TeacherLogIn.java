@@ -51,7 +51,7 @@ public class TeacherLogIn {
 	private void initialize() {
 		frame = new JFrame();
 		frame.getContentPane().setBackground(new Color(0, 0, 205));
-		frame.setBounds(100, 100, 400, 500);
+		frame.setBounds(100, 100, 362, 517);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
@@ -96,7 +96,7 @@ public class TeacherLogIn {
 		btnNewButton.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		btnNewButton.setForeground(new Color(255, 255, 255));
 		btnNewButton.setBackground(new Color(255, 140, 0));
-		btnNewButton.setBounds(302, 421, 72, 29);
+		btnNewButton.setBounds(264, 438, 72, 29);
 		frame.getContentPane().add(btnNewButton);
 		
 		JButton btnNewButton_1 = new JButton("Log In");

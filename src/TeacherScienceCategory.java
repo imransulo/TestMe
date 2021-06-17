@@ -51,7 +51,7 @@ public class TeacherScienceCategory {
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-				new Math().frame.setVisible(true);
+				new TeacherMath().frame.setVisible(true);
 				frame.dispose();
 			}
 		});
@@ -70,6 +70,13 @@ public class TeacherScienceCategory {
 		frame.getContentPane().add(lblNewLabel);
 		
 		JButton btnNewButton_1 = new JButton("Physics");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				new TeacherPhysics().frame.setVisible(true);
+				frame.dispose();
+			}
+		});
 		btnNewButton_1.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		btnNewButton_1.setForeground(new Color(255, 255, 255));
 		btnNewButton_1.setBackground(new Color(255, 140, 0));
@@ -77,6 +84,13 @@ public class TeacherScienceCategory {
 		frame.getContentPane().add(btnNewButton_1);
 		
 		JButton btnNewButton_2 = new JButton("Chemistry");
+		btnNewButton_2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				new TeacherChemistry().frame.setVisible(true);
+				frame.dispose();
+			}
+		});
 		btnNewButton_2.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		btnNewButton_2.setForeground(new Color(255, 255, 255));
 		btnNewButton_2.setBackground(new Color(255, 140, 0));
@@ -84,6 +98,13 @@ public class TeacherScienceCategory {
 		frame.getContentPane().add(btnNewButton_2);
 		
 		JButton btnNewButton_3 = new JButton("Programming");
+		btnNewButton_3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				new TeacherProgramming().frame.setVisible(true);
+				frame.dispose();
+			}
+		});
 		btnNewButton_3.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		btnNewButton_3.setForeground(new Color(255, 255, 255));
 		btnNewButton_3.setBackground(new Color(255, 140, 0));

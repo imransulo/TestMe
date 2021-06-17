@@ -42,7 +42,7 @@ public class TeacherCategoryChoose {
 	private void initialize() {
 		frame = new JFrame();
 		frame.getContentPane().setBackground(new Color(0, 0, 205));
-		frame.setBounds(100, 100, 759, 589);
+		frame.setBounds(100, 100, 759, 559);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		frame.setLocationRelativeTo(null);
@@ -57,7 +57,7 @@ public class TeacherCategoryChoose {
 		social.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		social.setForeground(new Color(255, 255, 255));
 		social.setBackground(new Color(255, 140, 0));
-		social.setBounds(262, 207, 214, 71);
+		social.setBounds(262, 197, 214, 71);
 		frame.getContentPane().add(social);
 		
 		JButton science = new JButton("Science");
@@ -70,7 +70,7 @@ public class TeacherCategoryChoose {
 		science.setForeground(new Color(255, 255, 255));
 		science.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		science.setBackground(new Color(255, 140, 0));
-		science.setBounds(262, 337, 214, 71);
+		science.setBounds(262, 312, 214, 71);
 		frame.getContentPane().add(science);
 		
 		JButton btnNewButton_2 = new JButton("Sign Out");
@@ -83,7 +83,7 @@ public class TeacherCategoryChoose {
 		btnNewButton_2.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		btnNewButton_2.setForeground(new Color(255, 255, 255));
 		btnNewButton_2.setBackground(new Color(255, 140, 0));
-		btnNewButton_2.setBounds(629, 501, 104, 38);
+		btnNewButton_2.setBounds(629, 471, 104, 38);
 		frame.getContentPane().add(btnNewButton_2);
 		
 		JLabel lblNewLabel = new JLabel("Categories");

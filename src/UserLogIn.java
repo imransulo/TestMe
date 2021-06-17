@@ -20,6 +20,7 @@ public class UserLogIn {
 	JFrame frame;
 	private JTextField user;
 	private JTextField pass;
+	private static int LogInfo;
 
 	/**
 	 * Launch the application.
@@ -36,7 +37,6 @@ public class UserLogIn {
 			}
 		});
 	}
-
 	/**
 	 * Create the application.
 	 */
@@ -50,7 +50,7 @@ public class UserLogIn {
 	private void initialize() {
 		frame = new JFrame();
 		frame.getContentPane().setBackground(new Color(0, 0, 205));
-		frame.setBounds(100, 100, 400, 500);
+		frame.setBounds(100, 100, 363, 517);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
@@ -95,21 +95,31 @@ public class UserLogIn {
 		btnNewButton.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		btnNewButton.setForeground(new Color(255, 255, 255));
 		btnNewButton.setBackground(new Color(255, 140, 0));
-		btnNewButton.setBounds(302, 421, 72, 29);
+		btnNewButton.setBounds(265, 438, 72, 29);
 		frame.getContentPane().add(btnNewButton);
 		
 		JButton btnNewButton_1 = new JButton("Log In");
 		btnNewButton_1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 			
-			try {
-				
+			try {		
 				Class.forName("com.mysql.jdbc.Driver");
 				Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/testme","root","root");
 				Statement s = con.createStatement();
+				Statement s1 = con.createStatement();
 				String query1 = "Select * from UserLogIn where username = '"+user.getText()+"' and password = '"+pass.getText()+"'";
+				String query2 = "Select id from UserLogIn where username = '"+user.getText()+"' and password = '"+pass.getText()+"'";
 				ResultSet rs = s.executeQuery(query1);
-				if(rs.next()) { new User().frame.setVisible(true); frame.dispose(); }
+				ResultSet rs1 = s1.executeQuery(query2);
+				
+				if(rs.next()) { 
+					
+					new UserCategoryChoose().frame.setVisible(true); 
+					frame.dispose(); 
+					if(rs1.next()) LogInfo = (Integer.parseInt(rs1.getObject(1).toString()));
+					
+					}
+				
 				else JOptionPane.showMessageDialog(null, "Wrong username or password");
 							
 			}catch(Exception ex) {
@@ -125,5 +135,8 @@ public class UserLogIn {
 		frame.getContentPane().add(btnNewButton_1);
 		 frame.setLocationRelativeTo(null);
 	}
-
+	
+	public static int getLogInfo() {
+		return LogInfo;
+	}
 }
